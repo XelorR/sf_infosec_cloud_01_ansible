@@ -10,7 +10,6 @@
 
 ```yaml
 - hosts: my_existing_vms_polyakov
-  become: yes
   tasks:
     - name: Update apt cache and install required packages if not installed
       ansible.builtin.apt:
@@ -21,9 +20,14 @@
           - sl
 ```
 
+```ini
+[privilege_escalation]
+become = True
+```
+
 Устройство нужно включить в группу со своей фамилией в качестве названия:
 
-```
+```ini
 [my_existing_vms_polyakov]
 sfjammy ansible_host=127.0.0.1 ansible_user=petr ansible_port=9922 ansible_sudo_pass=123
 sfbookworm ansible_host=127.0.0.1 ansible_user=petr ansible_port=8822 ansible_sudo_pass=123
