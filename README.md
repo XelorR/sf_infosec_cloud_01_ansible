@@ -8,7 +8,7 @@
 - cowsay,
 - sl.
 
-*Playbook:*
+*playbook:*
 ```yaml
 - hosts: my_existing_vms_polyakov
   tasks:
@@ -56,6 +56,6 @@ sfbookworm ansible_host=127.0.0.1 ansible_user=petr ansible_port=8822 ansible_su
 
 - [x] файлы конфигурации [ansible.cfg](./ansible.cfg), [hosts](./hosts);
 - [x] файл [playbook](./test-playbook.yml);
-- [x] скриншот вывода результатов работы PLAY.
+- [x] [скриншот](./assets/1_PLAY-successful.png) вывода результатов работы PLAY.
 
 Все результаты необходимо загрузить на свой GitHub и прикрепить ссылку на репозиторий в качестве ответа.
