@@ -8,6 +8,7 @@
 - cowsay,
 - sl.
 
+*Playbook:*
 ```yaml
 - hosts: my_existing_vms_polyakov
   tasks:
@@ -20,6 +21,7 @@
           - sl
 ```
 
+*ansible.cfg:*
 ```ini
 [privilege_escalation]
 become = True
@@ -27,6 +29,7 @@ become = True
 
 Устройство нужно включить в группу со своей фамилией в качестве названия:
 
+*hosts:*
 ```ini
 [my_existing_vms_polyakov]
 sfjammy ansible_host=127.0.0.1 ansible_user=petr ansible_port=9922 ansible_sudo_pass=123
