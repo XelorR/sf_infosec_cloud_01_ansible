@@ -1,5 +1,4 @@
 - hosts: my_existing_vms_polyakov
-  become: yes
   tasks:
     - name: Update apt cache and install required packages if not installed
       ansible.builtin.apt:

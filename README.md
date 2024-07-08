@@ -47,7 +47,7 @@ sfbookworm ansible_host=127.0.0.1 ansible_user=petr ansible_port=8822 ansible_su
 
 В качестве ответа предоставьте:
 
-- [ ] файлы конфигурации ansible.cfg, [hosts](./hosts);
+- [x] файлы конфигурации [ansible.cfg](./ansible.cfg), [hosts](./hosts);
 - [x] файл [playbook](./test-playbook.yml);
 - [x] скриншот вывода результатов работы PLAY.
 
