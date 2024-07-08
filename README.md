@@ -30,6 +30,19 @@ sfbookworm ansible_host=127.0.0.1 ansible_user=petr ansible_port=8822 ansible_su
 
 ```
 
+<details>
+<summary>Screenshots</summary>
+
+![](./assets/1_PLAY-successful.png)
+
+![](./assets/2_debian-cowsay.png)
+
+![](./assets/3_ubuntu-cowsay.png)
+
+![](./assets/4_shell-cowsay.png)
+
+</details>
+
 ## УСЛОВИЯ РЕАЛИЗАЦИИ
 
 В качестве ответа предоставьте:
